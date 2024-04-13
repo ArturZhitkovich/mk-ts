@@ -1,0 +1,25 @@
+input[type="radio"] {
+    display: none;
+}
+
+.label {
+    display: block;
+    width: 100%;
+    min-width: 240px;
+    font-weight: 800;
+    cursor: pointer;
+
+    .tag {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 12px;
+        border-radius: 12px;
+        text-align: left;
+    }
+}
+
+.label .input:checked + .tag {
+    background-color: #5FBF77;
+    color: #FFFFFF;
+}
